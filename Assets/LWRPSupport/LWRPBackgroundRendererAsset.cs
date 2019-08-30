@@ -6,6 +6,12 @@ namespace UnityEngine.XR.ARFoundation
     [CreateAssetMenu(fileName = "LWRPBackgroundRendererAsset", menuName = "XR/LWRPBackgroundRendererAsset")]
     public class LWRPBackgroundRendererAsset : ARBackgroundRendererAsset
     {
+        /// <summary>
+        /// we're going to reference all materials that we want to use so that they get built into the project
+        /// </summary>
+        [SerializeField]
+        Material[] m_MaterialsUsed;
+
         [SerializeField]
         ARCameraManager m_CameraManager;
 

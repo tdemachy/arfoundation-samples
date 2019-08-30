@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: LWRPBackgroundRendererAsset
   m_EditorClassIdentifier: 
   m_MaterialsUsed:
-  - {fileID: 2100000, guid: 91c809f5df4d84941a85f4cd21a290f7, type: 2}
-  - {fileID: 2100000, guid: 5bd0883a437ba4ed8a4572cda9d2e23d, type: 2}
+  - {fileID: 2100000, guid: 5e4a73ec28af6a74c91fb2ce094c2216, type: 2}
+  - {fileID: 2100000, guid: b28f8a9d1cad88a48af6e0c80c3682cd, type: 2}
+  m_CameraManager: {fileID: 0}
